@@ -130,7 +130,7 @@ class CourseCard extends StatelessWidget {
                 const SizedBox(height: 10),
                 Text(
                   course['title']!,
-                  maxLines: 2,
+                  maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     fontSize: 13,
