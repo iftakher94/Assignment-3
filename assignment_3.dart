@@ -62,13 +62,13 @@ class CourseListScreen extends StatelessWidget {
         elevation: 0,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(10.0), // const যোগ করা হয়েছে
+        padding: const EdgeInsets.all(10.0), 
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            childAspectRatio: 0.62, // Overflow রোধে কিছুটা বাড়ানো হয়েছে
+            childAspectRatio: 0.62, 
           ),
           itemCount: courses.length,
           itemBuilder: (context, index) {
